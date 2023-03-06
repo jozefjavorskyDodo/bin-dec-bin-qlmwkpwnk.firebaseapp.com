@@ -1,0 +1,12 @@
+#header-section-h2 {
+    margin: 1cm 0 1cm 1cm;
+}
+
+#header-section-h2-span {
+    padding: 1mm 2mm 1mm 2mm;
+    color: rgba(200, 200, 200, 1) !important;
+    background-color: rgb(0, 0, 0);
+    border: 2mm solid rgba(0, 0, 0, 1);
+    border-radius: 2mm;
+    box-shadow: 0 0 4mm 4mm rgb(0, 0, 0);
+}

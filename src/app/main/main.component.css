@@ -1,0 +1,16 @@
+#main-section-first {
+    background-color: rgb(0, 0, 0);
+    width: 10mm;
+    height: 6mm;
+    border-radius: 3mm;
+    margin: 3mm 3mm 3mm 1cm;
+    padding: 3mm 3mm 3mm 3mm;
+}
+
+mat-slide-toggle {
+    display: block;
+}
+
+#main-section-second {
+    margin: 3mm 3mm 3mm 1cm;
+}

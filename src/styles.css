@@ -1,0 +1,9 @@
+* {
+    font-family: cursive !important;
+    font-weight: 900 !important;
+    color: rgba(244, 244, 244, 1) !important;
+}
+
+body {
+    background-color: rgb(61, 0, 122);
+}

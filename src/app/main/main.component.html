@@ -1,0 +1,19 @@
+<section id="main-section-first">
+    <mat-slide-toggle [(ngModel)]="isSlideToggleChecked" (click)="boolean_HTML_body_bgColor()"></mat-slide-toggle>
+</section>
+
+<section id="main-section-second">
+    <mat-form-field appearance="fill">
+        <mat-select [(value)]="selectedUpperCase" id="dropdown">
+            <mat-option (click)="bin_char_dec()" [value]="option.value" *ngFor="let option of uppercases" onclick="javascript:'use strict';
+                try {document.getElementById('dropdown').setAttribute('val', String(this.innerText));}
+                catch (err) {if (err) {console.clear();console.log(err);};};">
+                <span>{{ option.viewValue }}</span>
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <p>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span>{{ output$ | async }}</span>
+    </p>
+</section>
